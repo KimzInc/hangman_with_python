@@ -5,7 +5,7 @@ print('welcome to kimzaf game')
 words = ['hacker', 'bounty', 'random']
 
 secret_word = random.choice(words)
-print(secret_word)
+
 display_word = []
 for letter in secret_word:
     display_word += "_"
